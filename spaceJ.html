@@ -1,0 +1,32 @@
+<head>
+  <title>JSS Matrix</title>
+</head>
+
+<body>
+</body>
+
+<template name="none">
+  </template>
+
+<template name="layout">
+  {{> yield 'login'}}
+  <div id="content">
+    {{> yield 'content'}}
+  </div>
+</template>
+
+<template name="login">
+  <div id="lefttab" class="Tab1">
+  </div>
+  <div id="FlightD" class="Tab1">
+  	<h1>
+  		Flight Director
+  	</h1>
+  </div>
+</template>
+
+<template name="default">
+  <div id="shipborder">
+  <h1 id="ship">JSS Matrix</h1>
+  </div>
+</template>
